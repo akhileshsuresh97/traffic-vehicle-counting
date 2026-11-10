@@ -2,7 +2,9 @@
 
 Detects cars and trucks in traffic video with YOLOv8, follows each vehicle across frames with ByteTrack, and counts it once when it crosses a virtual line, by direction (ENTER/EXIT) and class. Outputs an annotated video, a bar chart, a JSON summary and a PDF report. Built at Deggendorf Institute of Technology (Campus Cham) under the supervision of Prof. Dr. Sunil Survaiya.
 
-**Live demo:** _coming soon_
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akhileshsuresh97/traffic-vehicle-counting/blob/main/demo.ipynb)
+
+**Try it in your browser:** the Colab notebook installs the project, downloads a free sample traffic clip and shows the annotated result, about 2–3 minutes with Runtime → Run all. You can also upload your own video there.
 
 <!-- demo GIF goes here: ![Demo](docs/demo.gif) -->
 
@@ -77,6 +79,7 @@ pipeline.py         YOLOv8 + ByteTrack, drawing, video in/out
 counting.py         Counting logic (detector-independent, fully tested)
 report.py           Bar chart and PDF report
 make_gif.py         GIF from the annotated video
+demo.ipynb          Colab demo notebook
 tests/              Unit and end-to-end tests
 ```
 
@@ -98,3 +101,5 @@ Team project with Dhanya Narayan, Mullapudi Rajyalakshmi and Mohammed Danish Fay
 ## Built with
 
 Python, Ultralytics YOLOv8, ByteTrack, OpenCV, NumPy, Matplotlib, Gradio
+
+Sample video in the Colab demo: [Traffic on a freeway](https://mixkit.co/free-stock-video/traffic-on-a-freeway-99/), Mixkit (Mixkit License).
