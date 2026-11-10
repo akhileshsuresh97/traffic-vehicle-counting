@@ -6,7 +6,7 @@ Detects cars and trucks in traffic video with YOLOv8, follows each vehicle acros
 
 **Try it in your browser:** the Colab notebook installs the project, downloads a free sample traffic clip and shows the annotated result, about 2–3 minutes with Runtime → Run all. You can also upload your own video there.
 
-<!-- demo GIF goes here: ![Demo](docs/demo.gif) -->
+![Demo: vehicles tracked with IDs and counted as they cross the green line](docs/demo.gif)
 
 ## How it works
 
