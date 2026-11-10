@@ -102,4 +102,4 @@ Team project with Dhanya Narayan, Mullapudi Rajyalakshmi and Mohammed Danish Fay
 
 Python, Ultralytics YOLOv8, ByteTrack, OpenCV, NumPy, Matplotlib, Gradio
 
-Sample video in the Colab demo: [Traffic on a freeway](https://mixkit.co/free-stock-video/traffic-on-a-freeway-99/), Mixkit (Mixkit License).
+Sample video in the Colab demo: [City road with traffic on a sunny day](https://mixkit.co/free-stock-video/city-road-with-traffic-on-a-sunny-day-34265/), Mixkit (Mixkit License).
